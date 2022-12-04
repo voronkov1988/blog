@@ -1,0 +1,28 @@
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: #fff;
+}
+
+.buttons {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: auto;
+   padding: 10px 0;
+}
+.buttons span {
+   text-align: center;
+   background-color: #fff;
+   border: none;
+   text-align: center;
+   cursor: pointer;
+   border: 1px solid transparent;
+   // padding: 10px 20px;
+   font-size: 20px;
+}
+.signIn {
+   margin-right: 50px;
+}

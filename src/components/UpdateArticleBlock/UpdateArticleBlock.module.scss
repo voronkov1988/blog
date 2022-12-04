@@ -1,0 +1,46 @@
+.wrapper {
+   position: relative;
+   margin-top: 100px;
+   right: 0;
+}
+.wrapper button {
+   width: 100px;
+   margin-left: 10px;
+   padding: 5px 0;
+   cursor: pointer;
+   border-radius: 10px;
+}
+.delete, .edit {
+   color: white;
+   font-weight: bolder;
+   text-transform: uppercase;
+   border: none;
+}
+.delete {
+   background-color: red;
+}
+.edit {
+   background-color: orange;
+}
+.modal {
+   position: absolute;
+   background-color: silver;
+   border-radius: 10px;
+   margin-top: 20px;
+   padding: 20px
+}
+.buttons {
+   display: flex;
+}
+.yes {
+   background-color: red;
+   color: white;
+   font-weight: bolder;
+   border: 1px solid transparent;
+   transition: .3s;
+}
+.yes:hover {
+   border: 1px solid black;
+   color: black;
+   transition: .3s;
+}

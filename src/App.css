@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0 0 30px 0;
+  background-color: #D9D9D9;
+}
+
+.App {
+  background-color: #D9D9D9;
+  height: 100vh;
+  max-width: 80%;
+  margin-left: 10%;
+}
+.active {
+  color: red;
+  border-radius: 5px;
+  text-align: center;
+}
+.submit:disabled{
+  background-color: red;
+}

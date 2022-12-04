@@ -1,0 +1,61 @@
+
+.wrapper {
+   width: 80%;
+   background-color: #fff;
+   margin-left: 10%;
+   position: relative;
+   margin-top: 30px;
+   padding: 20px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.wrapper:hover {
+   transform: scale(1.01)
+}
+.header {
+   width: 70%;
+}
+.profile {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   right: 15px;
+   top: 15px;
+}
+.profileInfo {
+   display: flex;
+   flex-direction: column;
+   margin-right: 20px;
+}
+.profileInfo span:nth-child(2){
+   color: gray;
+}
+.likes {
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+}
+.likes span {
+   margin-left: 5px;
+}
+.articleTitle {
+   display: flex;
+   align-items: center;
+   margin-top: -20px;
+}
+.articleTitle h2 {
+   color: #1890FF;
+}
+.tags span {
+   display: inline-block;
+   text-align: center;
+   border: 1px solid black;
+   padding: 5px;
+   margin: 5px 0;
+}
+.image {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}

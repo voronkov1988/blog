@@ -1,0 +1,50 @@
+.wrapper {
+   display: flex;
+   align-items: center;
+   width: auto;
+}
+.create {
+   color: #52c41a;
+   border: 1px solid #52c41a;
+   background-color: #fff;
+   font-weight: 700;
+   transition: 0.3s;
+   padding: 10px 15px;
+   border-radius: 10px;
+   margin-right: 20px;
+}
+.create:hover {
+   background-color: #52c41a;
+   transition: 0.3s;
+   color: #fff;
+   cursor: pointer;
+}
+.userInfo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 30px;
+}
+.userInfo span {
+   margin-right: 10px;
+}
+.userInfo img {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+}
+.out {
+   color: rgba(0, 0, 0, 0.75);
+   border: 1px solid rgba(0, 0, 0, 0.75);
+   background-color: #fff;
+   padding: 15px 35px;
+   font-weight: 600;
+   border-radius: 15px;
+   cursor: pointer;
+}
+.out:hover {
+   background-color: rgba(0, 0, 0, 0.75);
+   color: #fff;
+   font-weight: 600;
+   transition: 0.3s;
+}
